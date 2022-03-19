@@ -1,0 +1,38 @@
+import { ErrorHandler } from '@angular/core';
+import { Observable } from 'rxjs';
+import { GuidedTour, TourStep } from './guided-tour.constants';
+import { WindowRefService } from "./windowref.service";
+import * as i0 from "@angular/core";
+export declare class GuidedTourService {
+    errorHandler: ErrorHandler;
+    private windowRef;
+    private dom;
+    guidedTourCurrentStepStream: Observable<TourStep>;
+    guidedTourOrbShowingStream: Observable<boolean>;
+    private _guidedTourCurrentStepSubject;
+    private _guidedTourOrbShowingSubject;
+    private _currentTourStepIndex;
+    private _currentTour;
+    private _onFirstStep;
+    private _onLastStep;
+    private _onResizeMessage;
+    constructor(errorHandler: ErrorHandler, windowRef: WindowRefService, dom: any);
+    nextStep(): void;
+    backStep(): void;
+    skipTour(): void;
+    resetTour(): void;
+    startTour(tour: GuidedTour): void;
+    activateOrb(): void;
+    private _setFirstAndLast;
+    private _checkSelectorValidity;
+    get onLastStep(): boolean;
+    get onFirstStep(): boolean;
+    get onResizeMessage(): boolean;
+    get currentTourStepDisplay(): number;
+    get currentTourStepCount(): number;
+    get preventBackdropFromAdvancing(): boolean;
+    private getPreparedTourStep;
+    private setTourOrientation;
+    static ɵfac: i0.ɵɵFactoryDeclaration<GuidedTourService, never>;
+    static ɵprov: i0.ɵɵInjectableDeclaration<GuidedTourService>;
+}

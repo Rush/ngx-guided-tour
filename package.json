@@ -1,0 +1,66 @@
+{
+  "name": "ngx-guided-tour",
+  "version": "2.0.1",
+  "description": "Guided tour for your Angular applications.",
+  "peerDependencies": {
+    "@angular/common": ">=13.0.0",
+    "@angular/core": ">=13.0.0",
+    "bootstrap": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsqlabs/ngx-guided-tour.git"
+  },
+  "keywords": [
+    "guided",
+    "walkthrough",
+    "tour",
+    "angular",
+    "angular6",
+    "angular7",
+    "SASS",
+    "rxjs",
+    "customizable",
+    "ng",
+    "ngx",
+    "ng2"
+  ],
+  "author": {
+    "name": "lsqlabs",
+    "email": "developers@lsq.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lsqlabs/ngx-guided-tour/issues"
+  },
+  "homepage": "https://github.com/lsqlabs/ngx-guided-tour#readme",
+  "exports": {
+    "./scss/guided-tour-base-theme.scss": {
+      "default": "./scss/guided-tour-base-theme.scss"
+    },
+    "./scss/guided-tour.component.scss": {
+      "default": "./scss/guided-tour.component.scss"
+    },
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./ngx-guided-tour.d.ts",
+      "esm2020": "./esm2020/ngx-guided-tour.mjs",
+      "es2020": "./fesm2020/ngx-guided-tour.mjs",
+      "es2015": "./fesm2015/ngx-guided-tour.mjs",
+      "node": "./fesm2015/ngx-guided-tour.mjs",
+      "default": "./fesm2020/ngx-guided-tour.mjs"
+    }
+  },
+  "module": "fesm2015/ngx-guided-tour.mjs",
+  "es2020": "fesm2020/ngx-guided-tour.mjs",
+  "esm2020": "esm2020/ngx-guided-tour.mjs",
+  "fesm2020": "fesm2020/ngx-guided-tour.mjs",
+  "fesm2015": "fesm2015/ngx-guided-tour.mjs",
+  "typings": "ngx-guided-tour.d.ts",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
