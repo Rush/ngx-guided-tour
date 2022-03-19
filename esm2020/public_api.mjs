@@ -1,0 +1,9 @@
+/*
+ * Public API Surface of ngx-guided-tour
+ */
+export * from './lib/guided-tour.module';
+export * from './lib/guided-tour.component';
+export * from './lib/guided-tour.service';
+export * from './lib/guided-tour.constants';
+export * from './lib/windowref.service';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1ndWlkZWQtdG91ci9zcmMvcHVibGljX2FwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsMEJBQTBCLENBQUM7QUFDekMsY0FBYyw2QkFBNkIsQ0FBQztBQUM1QyxjQUFjLDJCQUEyQixDQUFDO0FBQzFDLGNBQWMsNkJBQTZCLENBQUM7QUFDNUMsY0FBYyx5QkFBeUIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygbmd4LWd1aWRlZC10b3VyXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvZ3VpZGVkLXRvdXIubW9kdWxlJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL2d1aWRlZC10b3VyLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9ndWlkZWQtdG91ci5zZXJ2aWNlJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL2d1aWRlZC10b3VyLmNvbnN0YW50cyc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi93aW5kb3dyZWYuc2VydmljZSc7XG4iXX0=
